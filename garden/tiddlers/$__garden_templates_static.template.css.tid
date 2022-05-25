@@ -1,0 +1,38 @@
+created: 20200728175144963
+modified: 20200801124954449
+tags: garden
+title: $:/garden/templates/static.template.css
+type: text/vnd.tiddlywiki
+
+{{$:/boot/boot.css||$:/core/templates/plain-text-tiddler}}
+
+{{$:/core/ui/PageStylesheet||$:/core/templates/wikified-tiddler}}
+
+.tc-tiddler-controls {
+   display: none;
+}
+
+.tc-page-controls {
+    display: none;
+}
+
+.tc-tab-buttons {
+   display: none;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* The 'Links to this note' ending section */
+.viewtemplatebigtext > .tc-reveal > h3 {
+    color: gray;
+}
+
+a.tc-tiddlylink-resolves {
+    line-height: 27px;
+}
